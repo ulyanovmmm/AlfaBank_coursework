@@ -1,0 +1,171 @@
+2023-04-11 11:23:57 [asyncio] DEBUG: Using selector: SelectSelector
+2023-04-11 11:23:57 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-04-11 11:23:57 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2023-04-11 11:23:57 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats', 'scrapy.extensions.logstats.LogStats']
+2023-04-11 11:23:57 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2023-04-11 11:23:57 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-04-11 11:23:58 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy.pipelines.files.FilesPipeline']
+2023-04-11 11:23:58 [scrapy.core.engine] INFO: Spider opened
+2023-04-11 11:23:58 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-04-11 11:23:58 [scrapy.extensions.httpcache] DEBUG: Using filesystem cache storage in C:\coursework\pars\.scrapy\httpcache
+2023-04-11 11:24:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series> (referer: None)
+2023-04-11 11:24:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica> (referer: None)
+2023-04-11 11:24:04 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-04-11 11:24:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica> (referer: None)
+2023-04-11 11:24:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/acta-arithmetica/information-for-authors> (referer: None)
+2023-04-11 11:24:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/information-for-authors> (referer: None)
+2023-04-11 11:24:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2> (referer: None)
+2023-04-11 11:24:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all> (referer: None)
+2023-04-11 11:24:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114895/explicit-rank-one-constructions-for-irrational-rotations> (referer: None)
+2023-04-11 11:24:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114895/explicit-rank-one-constructions-for-irrational-rotations> referred in <None>
+2023-04-11 11:24:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114896/spectral-deviation-of-concentration-operators-for-the-short-time-fourier-transform> (referer: None)
+2023-04-11 11:24:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114896/spectral-deviation-of-concentration-operators-for-the-short-time-fourier-transform> referred in <None>
+2023-04-11 11:24:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114849/characterizations-of-the-hardy-space-mathcal-h-fio-1-mathbb-r-n-for-fourier-integral-operators> (referer: None)
+2023-04-11 11:24:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114849/characterizations-of-the-hardy-space-mathcal-h-fio-1-mathbb-r-n-for-fourier-integral-operators> referred in <None>
+2023-04-11 11:24:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114843/helson-operators-and-coinvariant-subspaces> (referer: None)
+2023-04-11 11:24:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114843/helson-operators-and-coinvariant-subspaces> referred in <None>
+2023-04-11 11:24:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114889/a-continuous-parameter-katznelson-tzafriri-theorem-for-algebras-of-analytic-functions> (referer: None)
+2023-04-11 11:24:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114889/a-continuous-parameter-katznelson-tzafriri-theorem-for-algebras-of-analytic-functions> referred in <None>
+2023-04-11 11:24:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2>
+{'file_urls': ['https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114895/explicit-rank-one-constructions-for-irrational-rotations',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114896/spectral-deviation-of-concentration-operators-for-the-short-time-fourier-transform',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114849/characterizations-of-the-hardy-space-mathcal-h-fio-1-mathbb-r-n-for-fourier-integral-operators',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114843/helson-operators-and-coinvariant-subspaces',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/270/2/114889/a-continuous-parameter-katznelson-tzafriri-theorem-for-algebras-of-analytic-functions']}
+2023-04-11 11:24:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1> (referer: None)
+2023-04-11 11:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1> (referer: None)
+2023-04-11 11:24:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92803/beitrage-zur-theorie-der-orthogonalentwicklungen> (referer: None)
+2023-04-11 11:24:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92803/beitrage-zur-theorie-der-orthogonalentwicklungen> referred in <None>
+2023-04-11 11:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92804/sur-les-equations-lineaires-aux-differentielles-totales> (referer: None)
+2023-04-11 11:24:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92804/sur-les-equations-lineaires-aux-differentielles-totales> referred in <None>
+2023-04-11 11:24:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92805/anwendungen-der-funktionalanalysis-auf-einige-fragen-der-reellen-funktionentheorie> (referer: None)
+2023-04-11 11:24:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92805/anwendungen-der-funktionalanalysis-auf-einige-fragen-der-reellen-funktionentheorie> referred in <None>
+2023-04-11 11:24:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92806/une-remarque-sur-l-homeomorphie-des-champs-fonctionnels> (referer: None)
+2023-04-11 11:24:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92806/une-remarque-sur-l-homeomorphie-des-champs-fonctionnels> referred in <None>
+2023-04-11 11:24:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92807/sur-la-convergence-et-la-sommabilite-des-developpements-orthogonaux> (referer: None)
+2023-04-11 11:24:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92807/sur-la-convergence-et-la-sommabilite-des-developpements-orthogonaux> referred in <None>
+2023-04-11 11:24:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92808/invarianz-des-gebietes-in-funktionalraumen> (referer: None)
+2023-04-11 11:24:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92808/invarianz-des-gebietes-in-funktionalraumen> referred in <None>
+2023-04-11 11:24:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92809/cenni-riassuntivi-sulla-teoria-dei-funzionali-analitici> (referer: None)
+2023-04-11 11:24:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92809/cenni-riassuntivi-sulla-teoria-dei-funzionali-analitici> referred in <None>
+2023-04-11 11:24:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92810/beitrage-zur-theorie-der-schlichten-funktionen> (referer: None)
+2023-04-11 11:24:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92810/beitrage-zur-theorie-der-schlichten-funktionen> referred in <None>
+2023-04-11 11:24:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92811/sur-quelques-applications-du-calcul-fonctionnel-a-la-theorie-de-series-orthogonales> (referer: None)
+2023-04-11 11:24:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92811/sur-quelques-applications-du-calcul-fonctionnel-a-la-theorie-de-series-orthogonales> referred in <None>
+2023-04-11 11:24:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92798/sur-l-application-de-la-methode-des-approximations-successives-dans-la-theorie-des-equations-differentielles> (referer: None)
+2023-04-11 11:24:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92798/sur-l-application-de-la-methode-des-approximations-successives-dans-la-theorie-des-equations-differentielles> referred in <None>
+2023-04-11 11:24:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92799/sur-les-fonctionnelles-lineaires> (referer: None)
+2023-04-11 11:24:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92799/sur-les-fonctionnelles-lineaires> referred in <None>
+2023-04-11 11:24:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92800/remarque-sur-les-fonctionnelles-lineaires-dans-les-champs-l-p> (referer: None)
+2023-04-11 11:24:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92800/remarque-sur-les-fonctionnelles-lineaires-dans-les-champs-l-p> referred in <None>
+2023-04-11 11:24:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92801/sur-les-fonctionnelles-lineaires-ii> (referer: None)
+2023-04-11 11:24:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92801/sur-les-fonctionnelles-lineaires-ii> referred in <None>
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92802/beitrage-zur-theorie-der-orthogonalentwicklungen-ii> (referer: None)
+2023-04-11 11:24:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92802/beitrage-zur-theorie-der-orthogonalentwicklungen-ii> referred in <None>
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92802/beitrage-zur-theorie-der-orthogonalentwicklungen-ii> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92801/sur-les-fonctionnelles-lineaires-ii> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92800/remarque-sur-les-fonctionnelles-lineaires-dans-les-champs-l-p> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92799/sur-les-fonctionnelles-lineaires> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92798/sur-l-application-de-la-methode-des-approximations-successives-dans-la-theorie-des-equations-differentielles> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92811/sur-quelques-applications-du-calcul-fonctionnel-a-la-theorie-de-series-orthogonales> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92810/beitrage-zur-theorie-der-schlichten-funktionen> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92809/cenni-riassuntivi-sulla-teoria-dei-funzionali-analitici> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92808/invarianz-des-gebietes-in-funktionalraumen> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92807/sur-la-convergence-et-la-sommabilite-des-developpements-orthogonaux> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92806/une-remarque-sur-l-homeomorphie-des-champs-fonctionnels> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92805/anwendungen-der-funktionalanalysis-auf-einige-fragen-der-reellen-funktionentheorie> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92804/sur-les-equations-lineaires-aux-differentielles-totales> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92803/beitrage-zur-theorie-der-orthogonalentwicklungen> (referer: None) ['cached']
+2023-04-11 11:24:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1>
+{'file_urls': ['https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92803/beitrage-zur-theorie-der-orthogonalentwicklungen',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92804/sur-les-equations-lineaires-aux-differentielles-totales',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92805/anwendungen-der-funktionalanalysis-auf-einige-fragen-der-reellen-funktionentheorie',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92806/une-remarque-sur-l-homeomorphie-des-champs-fonctionnels',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92807/sur-la-convergence-et-la-sommabilite-des-developpements-orthogonaux',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92808/invarianz-des-gebietes-in-funktionalraumen',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92809/cenni-riassuntivi-sulla-teoria-dei-funzionali-analitici',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92810/beitrage-zur-theorie-der-schlichten-funktionen',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92811/sur-quelques-applications-du-calcul-fonctionnel-a-la-theorie-de-series-orthogonales',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92798/sur-l-application-de-la-methode-des-approximations-successives-dans-la-theorie-des-equations-differentielles',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92799/sur-les-fonctionnelles-lineaires',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92800/remarque-sur-les-fonctionnelles-lineaires-dans-les-champs-l-p',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92801/sur-les-fonctionnelles-lineaires-ii',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92802/beitrage-zur-theorie-der-orthogonalentwicklungen-ii']}
+2023-04-11 11:24:48 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1>
+{'file_urls': ['https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92803/beitrage-zur-theorie-der-orthogonalentwicklungen',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92804/sur-les-equations-lineaires-aux-differentielles-totales',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92805/anwendungen-der-funktionalanalysis-auf-einige-fragen-der-reellen-funktionentheorie',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92806/une-remarque-sur-l-homeomorphie-des-champs-fonctionnels',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92807/sur-la-convergence-et-la-sommabilite-des-developpements-orthogonaux',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92808/invarianz-des-gebietes-in-funktionalraumen',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92809/cenni-riassuntivi-sulla-teoria-dei-funzionali-analitici',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92810/beitrage-zur-theorie-der-schlichten-funktionen',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92811/sur-quelques-applications-du-calcul-fonctionnel-a-la-theorie-de-series-orthogonales',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92798/sur-l-application-de-la-methode-des-approximations-successives-dans-la-theorie-des-equations-differentielles',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92799/sur-les-fonctionnelles-lineaires',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92800/remarque-sur-les-fonctionnelles-lineaires-dans-les-champs-l-p',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92801/sur-les-fonctionnelles-lineaires-ii',
+               'https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/1/1/92802/beitrage-zur-theorie-der-orthogonalentwicklungen-ii']}
+2023-04-11 11:24:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all?year=1929> (referer: None)
+2023-04-11 11:24:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1> (referer: None)
+2023-04-11 11:24:58 [scrapy.extensions.logstats] INFO: Crawled 44 pages (at 44 pages/min), scraped 3 items (at 3 items/min)
+2023-04-11 11:24:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2> (referer: None)
+2023-04-11 11:24:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92892/uber-die-umkehrung-linearer-stetiger-funktionaloperationen> (referer: None)
+2023-04-11 11:24:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92892/uber-die-umkehrung-linearer-stetiger-funktionaloperationen> referred in <None>
+2023-04-11 11:24:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92898/uber-die-kleinste-konvexe-menge-die-eine-gegebene-kompakte-menge-enthalt> (referer: None)
+2023-04-11 11:24:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92898/uber-die-kleinste-konvexe-menge-die-eine-gegebene-kompakte-menge-enthalt> referred in <None>
+2023-04-11 11:25:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92899/uber-die-nullstellen-linearer-operationen> (referer: None)
+2023-04-11 11:25:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92899/uber-die-nullstellen-linearer-operationen> referred in <None>
+2023-04-11 11:25:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92900/sur-la-probabilite-de-la-convergence-de-series-premiere-communication> (referer: None)
+2023-04-11 11:25:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92900/sur-la-probabilite-de-la-convergence-de-series-premiere-communication> referred in <None>
+2023-04-11 11:25:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92901/eine-anwendung-der-theorie-der-operationen-bei-der-untersuchung-der-toeplitzschen-limitierungsverfahren-erste-mitteilung> (referer: None)
+2023-04-11 11:25:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92901/eine-anwendung-der-theorie-der-operationen-bei-der-untersuchung-der-toeplitzschen-limitierungsverfahren-erste-mitteilung> referred in <None>
+2023-04-11 11:25:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92902/sur-la-convergence-forte-dans-les-champs-l-p> (referer: None)
+2023-04-11 11:25:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92902/sur-la-convergence-forte-dans-les-champs-l-p> referred in <None>
+2023-04-11 11:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92903/ein-gegenbeispiel-zur-theorie-der-schwachen-konvergenz> (referer: None)
+2023-04-11 11:25:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92903/ein-gegenbeispiel-zur-theorie-der-schwachen-konvergenz> referred in <None>
+2023-04-11 11:25:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92904/sur-une-propriete-du-champ-des-fonctions-continues> (referer: None)
+2023-04-11 11:25:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92904/sur-une-propriete-du-champ-des-fonctions-continues> referred in <None>
+2023-04-11 11:25:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92905/sur-la-derivee-faible-d-un-ensemble-de-fonctionnelles-lineaires> (referer: None)
+2023-04-11 11:25:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92905/sur-la-derivee-faible-d-un-ensemble-de-fonctionnelles-lineaires> referred in <None>
+2023-04-11 11:25:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92882/einige-bemerkungen-uber-die-divergenzpunktmengen-von-orthogonalentwicklungen> (referer: None)
+2023-04-11 11:25:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92882/einige-bemerkungen-uber-die-divergenzpunktmengen-von-orthogonalentwicklungen> referred in <None>
+2023-04-11 11:25:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92883/eine-bemerkung-uber-divergenzphanomene-von-orthogonalentwicklungen> (referer: None)
+2023-04-11 11:25:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92883/eine-bemerkung-uber-divergenzphanomene-von-orthogonalentwicklungen> referred in <None>
+2023-04-11 11:25:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92884/zur-theorie-der-fourierschen-doppelreihe> (referer: None)
+2023-04-11 11:25:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92884/zur-theorie-der-fourierschen-doppelreihe> referred in <None>
+2023-04-11 11:25:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92885/sur-la-theorie-riemannienne-de-certains-systemes-orthogonaux> (referer: None)
+2023-04-11 11:25:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92885/sur-la-theorie-riemannienne-de-certains-systemes-orthogonaux> referred in <None>
+2023-04-11 11:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92886/der-fixpunktsatz-in-funktionalraumen> (referer: None)
+2023-04-11 11:25:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92886/der-fixpunktsatz-in-funktionalraumen> referred in <None>
+2023-04-11 11:25:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92887/un-theoreme-sur-les-series-orthogonales> (referer: None)
+2023-04-11 11:25:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92887/un-theoreme-sur-les-series-orthogonales> referred in <None>
+2023-04-11 11:25:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92888/uber-lineare-vollstetige-funktionaloperationen> (referer: None)
+2023-04-11 11:25:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92888/uber-lineare-vollstetige-funktionaloperationen> referred in <None>
+2023-04-11 11:25:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92889/uber-approximation-im-mittel> (referer: None)
+2023-04-11 11:25:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92889/uber-approximation-im-mittel> referred in <None>
+2023-04-11 11:25:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92890/uber-einige-eigenschaften-der-lakunaren-trigonometrischen-reihen> (referer: None)
+2023-04-11 11:25:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92890/uber-einige-eigenschaften-der-lakunaren-trigonometrischen-reihen> referred in <None>
+2023-04-11 11:25:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92891/on-the-partial-sums-of-fourier-series> (referer: None)
+2023-04-11 11:25:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92891/on-the-partial-sums-of-fourier-series> referred in <None>
+2023-04-11 11:25:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92893/uber-die-vorzeichenverteilung-in-unendlichen-reihen> (referer: None)
+2023-04-11 11:25:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://www.impan.pl/en/publishing-house/journals-and-series/studia-mathematica/all/2/1/92893/uber-die-vorzeichenverteilung-in-unendlichen-reihen> referred in <None>

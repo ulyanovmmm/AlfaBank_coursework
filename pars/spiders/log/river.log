@@ -1,0 +1,715 @@
+2023-04-11 19:44:37 [asyncio] DEBUG: Using selector: SelectSelector
+2023-04-11 19:44:37 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2023-04-11 19:44:37 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2023-04-11 19:44:37 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats', 'scrapy.extensions.logstats.LogStats']
+2023-04-11 19:44:37 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats',
+ 'scrapy.downloadermiddlewares.httpcache.HttpCacheMiddleware']
+2023-04-11 19:44:37 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2023-04-11 19:44:37 [scrapy.middleware] INFO: Enabled item pipelines:
+['scrapy.pipelines.files.FilesPipeline']
+2023-04-11 19:44:37 [scrapy.core.engine] INFO: Spider opened
+2023-04-11 19:44:37 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2023-04-11 19:44:37 [scrapy.extensions.httpcache] DEBUG: Using filesystem cache storage in C:\coursework\pars\.scrapy\httpcache
+2023-04-11 19:44:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.riverpublishers.com/journals.php> (referer: None)
+2023-04-11 19:44:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/index> (referer: https://www.riverpublishers.com/journals.php)
+2023-04-11 19:44:39 [scrapy.dupefilters] DEBUG: Filtered duplicate request: <GET https://journals.riverpublishers.com/index.php/JWE/index#pkp_content_main> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2023-04-11 19:44:39 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://journals.riverpublishers.com/index.php/IJFP/index> from <GET http://journals.riverpublishers.com/index.php/IJFP/index>
+2023-04-11 19:44:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/index> (referer: None)
+2023-04-11 19:44:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/issue/archive> (referer: https://journals.riverpublishers.com/index.php/JWE/index)
+2023-04-11 19:44:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/archive> (referer: https://journals.riverpublishers.com/index.php/IJFP/index)
+2023-04-11 19:44:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/issue/view/297> (referer: https://journals.riverpublishers.com/index.php/JWE/issue/archive)
+2023-04-11 19:44:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/28> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:44:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3171> (referer: None)
+2023-04-11 19:44:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3171> referred in <None>
+2023-04-11 19:44:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3173> (referer: None)
+2023-04-11 19:44:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3173> referred in <None>
+2023-04-11 19:44:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3175> (referer: None)
+2023-04-11 19:44:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3175> referred in <None>
+2023-04-11 19:44:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3177> (referer: None)
+2023-04-11 19:44:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3177> referred in <None>
+2023-04-11 19:44:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3179> (referer: None)
+2023-04-11 19:44:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3179> referred in <None>
+2023-04-11 19:44:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3181> (referer: None)
+2023-04-11 19:44:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3181> referred in <None>
+2023-04-11 19:44:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3183> (referer: None)
+2023-04-11 19:44:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3183> referred in <None>
+2023-04-11 19:44:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/JWE/issue/view/297>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/JWE/article/view/3171',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3173',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3175',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3177',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3179',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3181',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3183']}
+2023-04-11 19:44:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/194> (referer: None)
+2023-04-11 19:44:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/194> referred in <None>
+2023-04-11 19:44:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/195> (referer: None)
+2023-04-11 19:44:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/195> referred in <None>
+2023-04-11 19:44:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/196> (referer: None)
+2023-04-11 19:44:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/196> referred in <None>
+2023-04-11 19:44:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/197> (referer: None)
+2023-04-11 19:44:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/197> referred in <None>
+2023-04-11 19:44:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/28>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/194',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/195',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/196',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/197']}
+2023-04-11 19:44:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/27> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:44:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/26> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:44:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/189> (referer: None)
+2023-04-11 19:44:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/189> referred in <None>
+2023-04-11 19:44:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/190> (referer: None)
+2023-04-11 19:44:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/190> referred in <None>
+2023-04-11 19:44:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/191> (referer: None)
+2023-04-11 19:44:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/191> referred in <None>
+2023-04-11 19:44:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/192> (referer: None)
+2023-04-11 19:44:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/192> referred in <None>
+2023-04-11 19:45:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/193> (referer: None)
+2023-04-11 19:45:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/193> referred in <None>
+2023-04-11 19:45:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/27>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/189',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/190',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/191',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/192',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/193']}
+2023-04-11 19:45:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/184> (referer: None)
+2023-04-11 19:45:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/184> referred in <None>
+2023-04-11 19:45:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/185> (referer: None)
+2023-04-11 19:45:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/185> referred in <None>
+2023-04-11 19:45:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/186> (referer: None)
+2023-04-11 19:45:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/186> referred in <None>
+2023-04-11 19:45:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/187> (referer: None)
+2023-04-11 19:45:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/187> referred in <None>
+2023-04-11 19:45:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/188> (referer: None)
+2023-04-11 19:45:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/188> referred in <None>
+2023-04-11 19:45:04 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/26>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/184',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/185',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/186',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/187',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/188']}
+2023-04-11 19:45:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/25> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/24> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/175> (referer: None)
+2023-04-11 19:45:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/175> referred in <None>
+2023-04-11 19:45:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/176> (referer: None)
+2023-04-11 19:45:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/176> referred in <None>
+2023-04-11 19:45:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/177> (referer: None)
+2023-04-11 19:45:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/177> referred in <None>
+2023-04-11 19:45:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/178> (referer: None)
+2023-04-11 19:45:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/178> referred in <None>
+2023-04-11 19:45:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/179> (referer: None)
+2023-04-11 19:45:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/179> referred in <None>
+2023-04-11 19:45:09 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/25>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/175',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/176',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/177',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/178',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/179']}
+2023-04-11 19:45:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/170> (referer: None)
+2023-04-11 19:45:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/170> referred in <None>
+2023-04-11 19:45:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/171> (referer: None)
+2023-04-11 19:45:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/171> referred in <None>
+2023-04-11 19:45:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/172> (referer: None)
+2023-04-11 19:45:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/172> referred in <None>
+2023-04-11 19:45:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/173> (referer: None)
+2023-04-11 19:45:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/173> referred in <None>
+2023-04-11 19:45:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/174> (referer: None)
+2023-04-11 19:45:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/174> referred in <None>
+2023-04-11 19:45:14 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/24>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/170',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/171',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/172',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/173',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/174']}
+2023-04-11 19:45:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/23> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/22> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/166> (referer: None)
+2023-04-11 19:45:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/166> referred in <None>
+2023-04-11 19:45:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/167> (referer: None)
+2023-04-11 19:45:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/167> referred in <None>
+2023-04-11 19:45:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/168> (referer: None)
+2023-04-11 19:45:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/168> referred in <None>
+2023-04-11 19:45:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/169> (referer: None)
+2023-04-11 19:45:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/169> referred in <None>
+2023-04-11 19:45:20 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/23>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/166',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/167',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/168',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/169']}
+2023-04-11 19:45:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/158> (referer: None)
+2023-04-11 19:45:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/158> referred in <None>
+2023-04-11 19:45:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/161> (referer: None)
+2023-04-11 19:45:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/161> referred in <None>
+2023-04-11 19:45:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/162> (referer: None)
+2023-04-11 19:45:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/162> referred in <None>
+2023-04-11 19:45:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/160> (referer: None)
+2023-04-11 19:45:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/160> referred in <None>
+2023-04-11 19:45:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/159> (referer: None)
+2023-04-11 19:45:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/159> referred in <None>
+2023-04-11 19:45:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/22>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/158',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/161',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/162',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/160',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/159']}
+2023-04-11 19:45:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/21> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/20> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/153> (referer: None)
+2023-04-11 19:45:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/153> referred in <None>
+2023-04-11 19:45:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/154> (referer: None)
+2023-04-11 19:45:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/154> referred in <None>
+2023-04-11 19:45:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/155> (referer: None)
+2023-04-11 19:45:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/155> referred in <None>
+2023-04-11 19:45:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/156> (referer: None)
+2023-04-11 19:45:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/156> referred in <None>
+2023-04-11 19:45:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/157> (referer: None)
+2023-04-11 19:45:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/157> referred in <None>
+2023-04-11 19:45:29 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/21>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/153',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/154',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/155',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/156',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/157']}
+2023-04-11 19:45:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/148> (referer: None)
+2023-04-11 19:45:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/148> referred in <None>
+2023-04-11 19:45:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/149> (referer: None)
+2023-04-11 19:45:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/149> referred in <None>
+2023-04-11 19:45:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/150> (referer: None)
+2023-04-11 19:45:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/150> referred in <None>
+2023-04-11 19:45:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/151> (referer: None)
+2023-04-11 19:45:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/151> referred in <None>
+2023-04-11 19:45:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/152> (referer: None)
+2023-04-11 19:45:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/152> referred in <None>
+2023-04-11 19:45:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/20>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/148',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/149',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/150',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/151',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/152']}
+2023-04-11 19:45:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/18> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/19> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:37 [scrapy.extensions.logstats] INFO: Crawled 67 pages (at 67 pages/min), scraped 10 items (at 10 items/min)
+2023-04-11 19:45:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/138> (referer: None)
+2023-04-11 19:45:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/138> referred in <None>
+2023-04-11 19:45:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/139> (referer: None)
+2023-04-11 19:45:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/139> referred in <None>
+2023-04-11 19:45:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/140> (referer: None)
+2023-04-11 19:45:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/140> referred in <None>
+2023-04-11 19:45:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/141> (referer: None)
+2023-04-11 19:45:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/141> referred in <None>
+2023-04-11 19:45:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/143> (referer: None)
+2023-04-11 19:45:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/143> referred in <None>
+2023-04-11 19:45:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/18>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/138',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/139',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/140',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/141',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/143']}
+2023-04-11 19:45:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/144> (referer: None)
+2023-04-11 19:45:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/144> referred in <None>
+2023-04-11 19:45:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/145> (referer: None)
+2023-04-11 19:45:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/145> referred in <None>
+2023-04-11 19:45:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/146> (referer: None)
+2023-04-11 19:45:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/146> referred in <None>
+2023-04-11 19:45:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/147> (referer: None)
+2023-04-11 19:45:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/147> referred in <None>
+2023-04-11 19:45:45 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/19>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/144',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/145',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/146',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/147']}
+2023-04-11 19:45:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/49> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/88> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/425> (referer: None)
+2023-04-11 19:45:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/425> referred in <None>
+2023-04-11 19:45:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/426> (referer: None)
+2023-04-11 19:45:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/426> referred in <None>
+2023-04-11 19:45:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/427> (referer: None)
+2023-04-11 19:45:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/427> referred in <None>
+2023-04-11 19:45:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/428> (referer: None)
+2023-04-11 19:45:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/428> referred in <None>
+2023-04-11 19:45:50 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/49>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/425',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/426',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/427',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/428']}
+2023-04-11 19:45:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/751> (referer: None)
+2023-04-11 19:45:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/751> referred in <None>
+2023-04-11 19:45:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/754> (referer: None)
+2023-04-11 19:45:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/754> referred in <None>
+2023-04-11 19:45:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/755> (referer: None)
+2023-04-11 19:45:53 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/755> referred in <None>
+2023-04-11 19:45:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/357> (referer: None)
+2023-04-11 19:45:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/357> referred in <None>
+2023-04-11 19:45:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/355> (referer: None)
+2023-04-11 19:45:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/355> referred in <None>
+2023-04-11 19:45:55 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/88>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/751',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/754',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/755',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/357',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/355']}
+2023-04-11 19:45:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/106> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/143> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:45:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/416> (referer: None)
+2023-04-11 19:45:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/416> referred in <None>
+2023-04-11 19:45:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/417> (referer: None)
+2023-04-11 19:45:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/417> referred in <None>
+2023-04-11 19:45:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1127> (referer: None)
+2023-04-11 19:45:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1127> referred in <None>
+2023-04-11 19:45:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1129> (referer: None)
+2023-04-11 19:45:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1129> referred in <None>
+2023-04-11 19:46:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1135> (referer: None)
+2023-04-11 19:46:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1135> referred in <None>
+2023-04-11 19:46:00 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/106>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/416',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/417',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/1127',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/1129',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/1135']}
+2023-04-11 19:46:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/301> (referer: None)
+2023-04-11 19:46:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/301> referred in <None>
+2023-04-11 19:46:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/352> (referer: None)
+2023-04-11 19:46:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/352> referred in <None>
+2023-04-11 19:46:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/344> (referer: None)
+2023-04-11 19:46:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/344> referred in <None>
+2023-04-11 19:46:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/516> (referer: None)
+2023-04-11 19:46:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/516> referred in <None>
+2023-04-11 19:46:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/942> (referer: None)
+2023-04-11 19:46:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/942> referred in <None>
+2023-04-11 19:46:05 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/143>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/301',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/352',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/344',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/516',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/942']}
+2023-04-11 19:46:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/209> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/647> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/3125> (referer: None)
+2023-04-11 19:46:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/3125> referred in <None>
+2023-04-11 19:46:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1077> (referer: None)
+2023-04-11 19:46:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1077> referred in <None>
+2023-04-11 19:46:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/911> (referer: None)
+2023-04-11 19:46:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/911> referred in <None>
+2023-04-11 19:46:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/353> (referer: None)
+2023-04-11 19:46:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/353> referred in <None>
+2023-04-11 19:46:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/414> (referer: None)
+2023-04-11 19:46:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/414> referred in <None>
+2023-04-11 19:46:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/906> (referer: None)
+2023-04-11 19:46:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/906> referred in <None>
+2023-04-11 19:46:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/209>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/3125',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/1077',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/911',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/353',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/414',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/906']}
+2023-04-11 19:46:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5819> (referer: None)
+2023-04-11 19:46:13 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5819> referred in <None>
+2023-04-11 19:46:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/3505> (referer: None)
+2023-04-11 19:46:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/3505> referred in <None>
+2023-04-11 19:46:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/4755> (referer: None)
+2023-04-11 19:46:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/4755> referred in <None>
+2023-04-11 19:46:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1489> (referer: None)
+2023-04-11 19:46:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1489> referred in <None>
+2023-04-11 19:46:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/3021> (referer: None)
+2023-04-11 19:46:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/3021> referred in <None>
+2023-04-11 19:46:19 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/647>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/5819',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/3505',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/4755',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/1489',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/3021']}
+2023-04-11 19:46:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/679> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/717> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6345> (referer: None)
+2023-04-11 19:46:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6345> referred in <None>
+2023-04-11 19:46:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6003> (referer: None)
+2023-04-11 19:46:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6003> referred in <None>
+2023-04-11 19:46:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6005> (referer: None)
+2023-04-11 19:46:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6005> referred in <None>
+2023-04-11 19:46:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6007> (referer: None)
+2023-04-11 19:46:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6007> referred in <None>
+2023-04-11 19:46:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6009> (referer: None)
+2023-04-11 19:46:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6009> referred in <None>
+2023-04-11 19:46:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6011> (referer: None)
+2023-04-11 19:46:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6011> referred in <None>
+2023-04-11 19:46:25 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/679>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/6345',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6003',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6005',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6007',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6009',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6011']}
+2023-04-11 19:46:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1235> (referer: None)
+2023-04-11 19:46:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1235> referred in <None>
+2023-04-11 19:46:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5535> (referer: None)
+2023-04-11 19:46:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5535> referred in <None>
+2023-04-11 19:46:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5681> (referer: None)
+2023-04-11 19:46:29 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5681> referred in <None>
+2023-04-11 19:46:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5509> (referer: None)
+2023-04-11 19:46:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5509> referred in <None>
+2023-04-11 19:46:30 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/717>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/1235',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5535',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5681',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5509']}
+2023-04-11 19:46:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/727> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/791> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/7171> (referer: None)
+2023-04-11 19:46:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/7171> referred in <None>
+2023-04-11 19:46:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5867> (referer: None)
+2023-04-11 19:46:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5867> referred in <None>
+2023-04-11 19:46:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5975> (referer: None)
+2023-04-11 19:46:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5975> referred in <None>
+2023-04-11 19:46:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5929> (referer: None)
+2023-04-11 19:46:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5929> referred in <None>
+2023-04-11 19:46:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5839> (referer: None)
+2023-04-11 19:46:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5839> referred in <None>
+2023-04-11 19:46:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5959> (referer: None)
+2023-04-11 19:46:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5959> referred in <None>
+2023-04-11 19:46:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6013> (referer: None)
+2023-04-11 19:46:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6013> referred in <None>
+2023-04-11 19:46:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/727>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/7171',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5867',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5975',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5929',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5839',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/5959',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6013']}
+2023-04-11 19:46:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5729> (referer: None)
+2023-04-11 19:46:37 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/5729> referred in <None>
+2023-04-11 19:46:37 [scrapy.extensions.logstats] INFO: Crawled 134 pages (at 67 pages/min), scraped 21 items (at 11 items/min)
+2023-04-11 19:46:38 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6333> (referer: None)
+2023-04-11 19:46:38 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6333> referred in <None>
+2023-04-11 19:46:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6381> (referer: None)
+2023-04-11 19:46:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6381> referred in <None>
+2023-04-11 19:46:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/7063> (referer: None)
+2023-04-11 19:46:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/7063> referred in <None>
+2023-04-11 19:46:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/8667> (referer: None)
+2023-04-11 19:46:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/8667> referred in <None>
+2023-04-11 19:46:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/9359> (referer: None)
+2023-04-11 19:46:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/9359> referred in <None>
+2023-04-11 19:46:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/791>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/5729',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6333',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6381',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/7063',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/8667',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/9359']}
+2023-04-11 19:46:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/983> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/997> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/12423> (referer: None)
+2023-04-11 19:46:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/12423> referred in <None>
+2023-04-11 19:46:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/10969> (referer: None)
+2023-04-11 19:46:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/10969> referred in <None>
+2023-04-11 19:46:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/10955> (referer: None)
+2023-04-11 19:46:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/10955> referred in <None>
+2023-04-11 19:46:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/10915> (referer: None)
+2023-04-11 19:46:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/10915> referred in <None>
+2023-04-11 19:46:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11291> (referer: None)
+2023-04-11 19:46:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11291> referred in <None>
+2023-04-11 19:46:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11401> (referer: None)
+2023-04-11 19:46:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11401> referred in <None>
+2023-04-11 19:46:46 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/983>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/12423',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/10969',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/10955',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/10915',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/11291',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/11401']}
+2023-04-11 19:46:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6491> (referer: None)
+2023-04-11 19:46:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6491> referred in <None>
+2023-04-11 19:46:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1199> (referer: None)
+2023-04-11 19:46:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/1199> referred in <None>
+2023-04-11 19:46:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6083> (referer: None)
+2023-04-11 19:46:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6083> referred in <None>
+2023-04-11 19:46:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11837> (referer: None)
+2023-04-11 19:46:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11837> referred in <None>
+2023-04-11 19:46:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11273> (referer: None)
+2023-04-11 19:46:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11273> referred in <None>
+2023-04-11 19:46:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/997>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/6491',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/1199',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/6083',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/11837',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/11273']}
+2023-04-11 19:46:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/1099> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/1503> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:46:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6995> (referer: None)
+2023-04-11 19:46:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/6995> referred in <None>
+2023-04-11 19:46:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/9959> (referer: None)
+2023-04-11 19:46:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/9959> referred in <None>
+2023-04-11 19:46:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11873> (referer: None)
+2023-04-11 19:46:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/11873> referred in <None>
+2023-04-11 19:46:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18567> (referer: None)
+2023-04-11 19:46:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18567> referred in <None>
+2023-04-11 19:46:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18569> (referer: None)
+2023-04-11 19:46:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18569> referred in <None>
+2023-04-11 19:47:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18571> (referer: None)
+2023-04-11 19:47:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18571> referred in <None>
+2023-04-11 19:47:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18573> (referer: None)
+2023-04-11 19:47:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18573> referred in <None>
+2023-04-11 19:47:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18525> (referer: None)
+2023-04-11 19:47:02 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18525> referred in <None>
+2023-04-11 19:47:03 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18527> (referer: None)
+2023-04-11 19:47:03 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18527> referred in <None>
+2023-04-11 19:47:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18529> (referer: None)
+2023-04-11 19:47:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18529> referred in <None>
+2023-04-11 19:47:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18531> (referer: None)
+2023-04-11 19:47:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/18531> referred in <None>
+2023-04-11 19:47:06 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/1099>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/6995',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/9959',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/11873',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18567',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18569',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18571',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18573',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18525',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18527',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18529',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/18531']}
+2023-04-11 19:47:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19655> (referer: None)
+2023-04-11 19:47:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19655> referred in <None>
+2023-04-11 19:47:08 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19657> (referer: None)
+2023-04-11 19:47:08 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19657> referred in <None>
+2023-04-11 19:47:09 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19659> (referer: None)
+2023-04-11 19:47:09 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19659> referred in <None>
+2023-04-11 19:47:10 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19661> (referer: None)
+2023-04-11 19:47:10 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19661> referred in <None>
+2023-04-11 19:47:11 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19663> (referer: None)
+2023-04-11 19:47:11 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19663> referred in <None>
+2023-04-11 19:47:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19665> (referer: None)
+2023-04-11 19:47:12 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/19665> referred in <None>
+2023-04-11 19:47:12 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/1503>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/19655',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/19657',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/19659',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/19661',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/19663',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/19665']}
+2023-04-11 19:47:12 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive)
+2023-04-11 19:47:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/issue/view/295> (referer: https://journals.riverpublishers.com/index.php/JWE/issue/archive)
+2023-04-11 19:47:13 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/65> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:14 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/5645> (referer: None)
+2023-04-11 19:47:14 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/5645> referred in <None>
+2023-04-11 19:47:15 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3147> (referer: None)
+2023-04-11 19:47:15 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3147> referred in <None>
+2023-04-11 19:47:16 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3149> (referer: None)
+2023-04-11 19:47:16 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3149> referred in <None>
+2023-04-11 19:47:17 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3151> (referer: None)
+2023-04-11 19:47:17 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3151> referred in <None>
+2023-04-11 19:47:18 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3153> (referer: None)
+2023-04-11 19:47:18 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3153> referred in <None>
+2023-04-11 19:47:19 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3155> (referer: None)
+2023-04-11 19:47:19 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3155> referred in <None>
+2023-04-11 19:47:20 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3157> (referer: None)
+2023-04-11 19:47:20 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3157> referred in <None>
+2023-04-11 19:47:21 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3159> (referer: None)
+2023-04-11 19:47:21 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3159> referred in <None>
+2023-04-11 19:47:22 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3161> (referer: None)
+2023-04-11 19:47:22 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3161> referred in <None>
+2023-04-11 19:47:23 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3163> (referer: None)
+2023-04-11 19:47:23 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/JWE/article/view/3163> referred in <None>
+2023-04-11 19:47:23 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/JWE/issue/view/295>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/JWE/article/view/5645',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3147',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3149',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3151',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3153',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3155',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3157',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3159',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3161',
+               'https://journals.riverpublishers.com/index.php/JWE/article/view/3163']}
+2023-04-11 19:47:24 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/548> (referer: None)
+2023-04-11 19:47:24 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/548> referred in <None>
+2023-04-11 19:47:25 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/549> (referer: None)
+2023-04-11 19:47:25 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/549> referred in <None>
+2023-04-11 19:47:26 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/550> (referer: None)
+2023-04-11 19:47:26 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/550> referred in <None>
+2023-04-11 19:47:27 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/551> (referer: None)
+2023-04-11 19:47:27 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/551> referred in <None>
+2023-04-11 19:47:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/552> (referer: None)
+2023-04-11 19:47:28 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/552> referred in <None>
+2023-04-11 19:47:28 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/65>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/548',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/549',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/550',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/551',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/552']}
+2023-04-11 19:47:28 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/64> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:29 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/63> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/543> (referer: None)
+2023-04-11 19:47:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/543> referred in <None>
+2023-04-11 19:47:30 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/544> (referer: None)
+2023-04-11 19:47:30 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/544> referred in <None>
+2023-04-11 19:47:31 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/545> (referer: None)
+2023-04-11 19:47:31 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/545> referred in <None>
+2023-04-11 19:47:32 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/546> (referer: None)
+2023-04-11 19:47:32 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/546> referred in <None>
+2023-04-11 19:47:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/547> (referer: None)
+2023-04-11 19:47:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/547> referred in <None>
+2023-04-11 19:47:33 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/64>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/543',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/544',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/545',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/546',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/547']}
+2023-04-11 19:47:33 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/538> (referer: None)
+2023-04-11 19:47:33 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/538> referred in <None>
+2023-04-11 19:47:34 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/539> (referer: None)
+2023-04-11 19:47:34 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/539> referred in <None>
+2023-04-11 19:47:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/540> (referer: None)
+2023-04-11 19:47:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/540> referred in <None>
+2023-04-11 19:47:35 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/541> (referer: None)
+2023-04-11 19:47:35 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/541> referred in <None>
+2023-04-11 19:47:36 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/542> (referer: None)
+2023-04-11 19:47:36 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/542> referred in <None>
+2023-04-11 19:47:36 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/63>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/538',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/539',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/540',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/541',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/542']}
+2023-04-11 19:47:37 [scrapy.extensions.logstats] INFO: Crawled 201 pages (at 67 pages/min), scraped 30 items (at 9 items/min)
+2023-04-11 19:47:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/62> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:37 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/61> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/533> (referer: None)
+2023-04-11 19:47:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/533> referred in <None>
+2023-04-11 19:47:39 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/534> (referer: None)
+2023-04-11 19:47:39 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/534> referred in <None>
+2023-04-11 19:47:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/535> (referer: None)
+2023-04-11 19:47:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/535> referred in <None>
+2023-04-11 19:47:40 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/536> (referer: None)
+2023-04-11 19:47:40 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/536> referred in <None>
+2023-04-11 19:47:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/537> (referer: None)
+2023-04-11 19:47:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/537> referred in <None>
+2023-04-11 19:47:41 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/62>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/533',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/534',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/535',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/536',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/537']}
+2023-04-11 19:47:41 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/528> (referer: None)
+2023-04-11 19:47:41 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/528> referred in <None>
+2023-04-11 19:47:42 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/529> (referer: None)
+2023-04-11 19:47:42 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/529> referred in <None>
+2023-04-11 19:47:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/530> (referer: None)
+2023-04-11 19:47:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/530> referred in <None>
+2023-04-11 19:47:43 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/531> (referer: None)
+2023-04-11 19:47:43 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/531> referred in <None>
+2023-04-11 19:47:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/532> (referer: None)
+2023-04-11 19:47:44 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/532> referred in <None>
+2023-04-11 19:47:44 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/61>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/528',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/529',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/530',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/531',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/532']}
+2023-04-11 19:47:44 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/60> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/59> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:45 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/522> (referer: None)
+2023-04-11 19:47:45 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/522> referred in <None>
+2023-04-11 19:47:46 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/523> (referer: None)
+2023-04-11 19:47:46 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/523> referred in <None>
+2023-04-11 19:47:47 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/525> (referer: None)
+2023-04-11 19:47:47 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/525> referred in <None>
+2023-04-11 19:47:48 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/526> (referer: None)
+2023-04-11 19:47:48 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/526> referred in <None>
+2023-04-11 19:47:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/527> (referer: None)
+2023-04-11 19:47:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/527> referred in <None>
+2023-04-11 19:47:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/60>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/522',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/523',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/525',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/526',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/527']}
+2023-04-11 19:47:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/517> (referer: None)
+2023-04-11 19:47:49 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/517> referred in <None>
+2023-04-11 19:47:50 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/518> (referer: None)
+2023-04-11 19:47:50 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/518> referred in <None>
+2023-04-11 19:47:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/519> (referer: None)
+2023-04-11 19:47:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/519> referred in <None>
+2023-04-11 19:47:51 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/520> (referer: None)
+2023-04-11 19:47:51 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/520> referred in <None>
+2023-04-11 19:47:52 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/521> (referer: None)
+2023-04-11 19:47:52 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/521> referred in <None>
+2023-04-11 19:47:52 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/59>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/517',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/518',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/519',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/520',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/521']}
+2023-04-11 19:47:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/58> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:53 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/57> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/502> (referer: None)
+2023-04-11 19:47:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/502> referred in <None>
+2023-04-11 19:47:54 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/503> (referer: None)
+2023-04-11 19:47:54 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/503> referred in <None>
+2023-04-11 19:47:55 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/504> (referer: None)
+2023-04-11 19:47:55 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/504> referred in <None>
+2023-04-11 19:47:56 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/506> (referer: None)
+2023-04-11 19:47:56 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/506> referred in <None>
+2023-04-11 19:47:57 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/507> (referer: None)
+2023-04-11 19:47:57 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/507> referred in <None>
+2023-04-11 19:47:57 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/58>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/502',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/503',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/504',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/506',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/507']}
+2023-04-11 19:47:58 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/497> (referer: None)
+2023-04-11 19:47:58 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/497> referred in <None>
+2023-04-11 19:47:59 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/498> (referer: None)
+2023-04-11 19:47:59 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/498> referred in <None>
+2023-04-11 19:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/499> (referer: None)
+2023-04-11 19:48:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/499> referred in <None>
+2023-04-11 19:48:00 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/500> (referer: None)
+2023-04-11 19:48:00 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/500> referred in <None>
+2023-04-11 19:48:01 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/501> (referer: None)
+2023-04-11 19:48:01 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/501> referred in <None>
+2023-04-11 19:48:01 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/57>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/497',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/498',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/499',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/500',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/501']}
+2023-04-11 19:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/56> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:48:02 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/issue/view/55> (referer: https://journals.riverpublishers.com/index.php/IJFP/issue/archive/2)
+2023-04-11 19:48:04 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/491> (referer: None)
+2023-04-11 19:48:04 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/491> referred in <None>
+2023-04-11 19:48:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/492> (referer: None)
+2023-04-11 19:48:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/492> referred in <None>
+2023-04-11 19:48:05 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/493> (referer: None)
+2023-04-11 19:48:05 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/493> referred in <None>
+2023-04-11 19:48:06 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/494> (referer: None)
+2023-04-11 19:48:06 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/494> referred in <None>
+2023-04-11 19:48:07 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/495> (referer: None)
+2023-04-11 19:48:07 [scrapy.pipelines.files] DEBUG: File (downloaded): Downloaded file from <GET https://journals.riverpublishers.com/index.php/IJFP/article/view/495> referred in <None>
+2023-04-11 19:48:07 [scrapy.core.scraper] DEBUG: Scraped from <200 https://journals.riverpublishers.com/index.php/IJFP/issue/view/56>
+{'file_urls': ['https://journals.riverpublishers.com/index.php/IJFP/article/view/491',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/492',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/493',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/494',
+               'https://journals.riverpublishers.com/index.php/IJFP/article/view/495']}
